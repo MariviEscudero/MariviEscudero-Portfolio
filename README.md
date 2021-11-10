@@ -1,8 +1,6 @@
-# Awesome Profile Cards
+# Marivi Escudero Portfolio
 
-- Rick & Morty Characters Index is a web application that allows you to search by name and filter characters from the series by species, immersing you in their universe.
-
-- Use the filters to search for characters and click on them to get more information.
+- This project shows my favorite projects and some of me, my work experience and contact data.
 
 - Try it, works in all devices!
 
@@ -62,11 +60,8 @@ And then:
 - React
 
 
-## Licence 📄
+## License 📄
 
 This project is licensed under the MIT License MIT License see the [LICENSE](LICENSE) file for more details.
 
-## Gracias 🎁 / Thanks 🎁
-
-- Thanks to the teachers of Adalab https://adalab.es/ ![logo-adalab](https://user-images.githubusercontent.com/86961323/140316793-d73dd5de-d06b-4da3-ac99-a7a54372ca20.png)
 
