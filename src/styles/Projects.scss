@@ -1,0 +1,63 @@
+@import 'core/variables';
+@import 'core/reset';
+.projects {
+  color: $textblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__title{
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  &__text{
+    font-size: 12px;
+    text-align: justify;
+    margin: 20px;
+  }
+  &__article {
+    background-color: white;
+    box-shadow: 1px 0px 5px 2px $shadowblue;
+    border-radius: 5px;
+    min-width: 200px;
+    min-height: 275px;
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    &--title{
+      margin: 15px 0px 10px 0px;
+    }
+    &--img {
+      width: 75%;
+      margin: 10px;
+      border-radius: 10px;
+    }
+    &--text {
+      font-size: 14px;
+      margin: 10px 24px 10px 24px;
+      text-align: center;
+    }
+  }
+  &__linknav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 20px;
+    &--link {
+      border: 3px solid #004254;
+      width: 40px;
+      height: 40px;
+      border-radius: 20px;
+      margin: 10px;
+      text-align: center;
+      line-height: 1.7;
+    }
+  }
+}
+.scrollup{
+  font-size: 35px;
+  margin-bottom: 10px;
+}
+

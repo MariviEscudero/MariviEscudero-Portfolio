@@ -1,0 +1,39 @@
+@import 'core/variables';
+@import 'core/reset';
+.aboutme {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: $textblue;
+  height: 100vh;
+  &__title{
+      font-size: 20px;
+      margin-top: 20px;
+  }
+  &__article {
+    font-size: 13px;
+    margin: 20px;
+    text-align: justify;
+  }
+  &__btn {
+    width: 140px;
+    height: 40px;
+    border-radius: 20px;
+    margin: 5px;
+    font-family: $mainfont;
+    font-size: 18px;
+    font-weight: bold;
+    border: 3px solid $textblue;
+    color: $textblue;
+    background-clip: text;
+    &:hover {
+      border: $textblue;
+      font-size: 20px;
+    }
+  }
+}
+.scrollup{
+    font-size: 35px;
+    margin-bottom: 10px;
+}

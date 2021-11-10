@@ -1,0 +1,68 @@
+@import 'core/reset';
+@import 'core/variables';
+.header {
+  color: $linenwhite;
+  text-align: center;
+  height: 100vh;
+  background-image: url('../images/blue-circles-4k-minimal-blue-backgrounds-circles-patterns-besthqwallpapers.com-1366x768.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  &__title {
+    font-size: 35px;
+    margin-top: 50px;
+    margin-bottom: 15px;
+  }
+  &__subt {
+    font-size: 20px;
+    margin-bottom: 15px;
+  }
+  &__linknav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 15px;
+    &--link {
+      border: 2px solid $linenwhite;
+      width: 30px;
+      height: 30px;
+      border-radius: 15px;
+      line-height: 1.8;
+      margin: 5px;
+    }
+  }
+  &__image {
+    width: 60%;
+    border-radius: 50%;
+    border: 2px solid $linenwhite;
+    margin: auto;
+  }
+  &__menu {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    &--btn {
+      width: 145px;
+      height: 40px;
+      border-radius: 20px;
+      margin: 0px 5px 50px 5px;
+      font-family: $mainfont;
+      font-size: 18px;
+      font-weight: bold;
+      border: 3px solid $linenwhite;
+      color: $linenwhite;
+      background-clip: text;
+      &:hover {
+        border: $linenwhite;
+        font-size: 20px;
+      }
+    }
+  }
+}
+
+
+
