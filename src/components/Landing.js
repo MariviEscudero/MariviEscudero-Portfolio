@@ -1,6 +1,8 @@
 import { Link} from 'react-scroll';
 import '../styles/Landing.scss';
 import Photo from '../images/f5c3de11-8857-4001-98b2-2317ad932616.jpg';
+
+
 const Landing = () => {
   return (
       <header className="header" name="header">
