@@ -5,6 +5,7 @@ import Landing from './Landing';
 import AboutMe from './AboutMe';
 import ProjectsList from './ProjectsList';
 
+
 const App = () => {
   const [projects, setprojects] = useState(JSON);
 
