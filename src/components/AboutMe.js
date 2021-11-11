@@ -26,8 +26,7 @@ const AboutMe = () => {
         Trabajo cada día en mejorar mis conicimientos en proyectos personales
         que iré añadiendo por aquí próximamente, y cuando no estoy en ello sigo
         buscando retos en proyectos DIY, lo mismo hago un jersey que pinto una
-        cómoda, cultivo un huerto o busco setas para cocinar algo rico con
-        familia, amigos, música y un buen vino!
+        cómoda o te arreglo el grifo de la cocina que gotea...cualquier cosa se puede aprender.
       </article>
       <Link smooth={true} to="header" className="link">
         <i className="scrollup far fa-arrow-alt-circle-up"></i>

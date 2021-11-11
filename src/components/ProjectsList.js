@@ -1,11 +1,11 @@
 import { Link } from 'react-scroll';
-import '../styles/Projects.scss';
+import '../styles/ProjectsList.scss';
 import ProjectsItem from './ProjectsItem';
 
 const ProjectsList = (props) => {
   console.log(props.data);
   const projectsData = props.data.list.map((project) => (
-    <li key={project.id} className="main__section--list__item">
+    <li key={project.id} className="projects__list--item">
       <ProjectsItem project={project}/>
     </li>
   ));

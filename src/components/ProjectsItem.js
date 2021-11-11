@@ -1,4 +1,4 @@
-import '../styles/Projects.scss';
+import '../styles/ProjectsItem.scss';
 
 const ProjectsItem = (props) => {
   return (
@@ -9,7 +9,7 @@ const ProjectsItem = (props) => {
         className="projects__list--item__img"
         alt={props.project.title}
       />
-      <p className="projects__list--item__text">{props.project.text}</p>
+      <p className="projects__list--item__text">{props.project.description}</p>
       <nav className="projects__linknav">
         <a
           className="projects__linknav--link"

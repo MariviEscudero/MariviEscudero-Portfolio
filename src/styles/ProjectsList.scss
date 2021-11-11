@@ -1,0 +1,35 @@
+@import 'core/variables';
+@import 'core/reset';
+.projects {
+  color: $textblue;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__title {
+    font-size: 20px;
+    margin-top: 20px;
+  }
+  &__text {
+    font-size: 12px;
+    text-align: justify;
+    margin: 20px;
+  }
+}
+.projects__list--item {
+  background-color: white;
+  box-shadow: 1px 0px 5px 2px $shadowblue;
+  border-radius: 5px;
+  min-width: 200px;
+  min-height: 275px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.scrollup {
+  font-size: 35px;
+  margin-bottom: 10px;
+}
