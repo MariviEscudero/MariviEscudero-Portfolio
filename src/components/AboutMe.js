@@ -18,9 +18,12 @@ const AboutMe = () => {
         me conozcas un poco más.
       </article>
       <button className="aboutme__btn">
-        <a href="{DownloadDoc}" download>
-          Descargar CV
-        </a>
+      <a
+        href="https://drive.google.com/file/d/1iDaLCUMkIDttYNs9ktbGYUvaZobLqGMI/view?usp=sharing"
+        target="_blank"
+        rel="noreferrer"
+      >Ver CV
+      </a>
       </button>
       <article className="aboutme__article">
         Trabajo cada día en mejorar mis conicimientos en proyectos personales
