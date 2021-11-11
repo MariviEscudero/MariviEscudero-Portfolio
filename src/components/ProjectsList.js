@@ -6,7 +6,7 @@ const ProjectsList = (props) => {
   console.log(props.data);
   const projectsData = props.data.list.map((project) => (
     <li key={project.id} className="main__section--list__item">
-      <ProjectsItem project={project} />
+      <ProjectsItem project={project}/>
     </li>
   ));
 

@@ -3,7 +3,7 @@
     {
       "id": "1",
       "title": "Buscador de series de TV",
-      "image": "../images/140638847-afc0ba97-01b8-4327-8465-4844695c8999.png",
+      "image": "../images/140638152-6a0e1272-6d3d-417a-af9b-3aa206cb9731.png",
       "description": " Proyecto individual realizado con JavaScript, HTML, CSS, filtrado de datos de API externa, busca las series que más te gusten y añádelas a favoritos, acuérdate de dormir, no las veas todas del tirón...",
       "weblink": "http://beta.adalab.es/project-promo-n-module-1-team-6/",
       "githublink": "https://github.com/Adalab/project-promo-n-module-1-team-6"
@@ -11,7 +11,7 @@
     {
       "id": "2",
       "title": "Buscador de series de TV",
-      "image": "hola",
+      "image": "../images/140638152-6a0e1272-6d3d-417a-af9b-3aa206cb9731.png",
       "description": "hola",
       "weblink": "hola",
       "githublink": "hola"
@@ -19,7 +19,7 @@
     {
       "id": "3",
       "title": "Buscador de series de TV",
-      "image": "hola",
+      "image": "../images/140638152-6a0e1272-6d3d-417a-af9b-3aa206cb9731.png",
       "description": "hola",
       "weblink": "hola",
       "githublink": "hola"
@@ -27,7 +27,7 @@
     {
       "id": "4",
       "title": "hola",
-      "image": "hola",
+      "image": "../images/140638152-6a0e1272-6d3d-417a-af9b-3aa206cb9731.png",
       "description": "hola",
       "weblink": "hola",
       "githublink": "hola"
