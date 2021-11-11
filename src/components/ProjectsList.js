@@ -40,7 +40,7 @@ const ProjectsList = () => {
       title: 'Guía de personajes Rick&Morty',
       image: `${RickMorty}`,
       description:
-        'Proyecto individual realizado con React, HTML, SCSS. Filtrado de datos de API, control de rutas. Busca a tus personajes favoritos de la serie Rick&Morty, puedes saber mas sobre ellos haciendo click sobre cada uno.',
+        'Proyecto individual realizado con React, HTML, SCSS. Filtrado de datos de API, control de rutas. Busca a tus personajes favoritos de la serie Rick&Morty, puedes saber más sobre ellos haciendo click sobre cada uno.',
       weblink:
         'https://mariviescudero.github.io/Rick-and-Morty-Characters-Index/#/',
       githublink:
