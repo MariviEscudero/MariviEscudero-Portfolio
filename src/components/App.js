@@ -2,6 +2,8 @@ import '../styles/App.scss';
 import Landing from './Landing';
 import AboutMe from './AboutMe';
 import ProjectsList from './ProjectsList';
+import Footer from './Footer';
+
 
 const App = () => {
   return (
@@ -9,6 +11,7 @@ const App = () => {
       <Landing />
       <AboutMe />
       <ProjectsList />
+      <Footer/>
     </div>
   );
 };

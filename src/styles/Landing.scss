@@ -23,38 +23,12 @@
       margin-bottom: 20px;
     }
   }
-
   &__subt {
     font-size: 20px;
     margin-bottom: 15px;
     @media (min-width: 1024px) {
       font-size: 30px;
       margin-bottom: 20px;
-    }
-  }
-  &__linknav {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    font-size: 15px;
-    @media (min-width: 1024px) {
-      font-size: 25px;
-    }
-    &--link {
-      border: 2px solid $linenwhite;
-      width: 30px;
-      height: 30px;
-      border-radius: 15px;
-      line-height: 1.8;
-      margin: 5px;
-      @media (min-width: 1024px) {
-        border: 3px solid $linenwhite;
-        width: 40px;
-        height: 40px;
-        border-radius: 20px;
-        line-height: 1.5;
-        margin: 10px;
-      }
     }
   }
   &__image {
