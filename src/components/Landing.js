@@ -50,7 +50,7 @@ const Landing = () => {
         </button>
         <button className="header__menu--btn">
           <Link smooth={true} to="projects" className="link">
-            Mis Proyectos
+          Proyectos
           </Link>
         </button>
       </nav>

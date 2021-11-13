@@ -1,20 +1,29 @@
 @import 'core/variables';
 @import 'core/reset';
 .aboutme {
+ 
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   color: $textblue;
   height: 100vh;
-  &__title{
-      font-size: 20px;
+  &__title {
+    font-size: 20px;
+    margin-top: 20px;
+    @media (min-width: 1024px) {
+      font-size: 40px;
       margin-top: 20px;
+    }
   }
   &__article {
     font-size: 13px;
     margin: 20px;
     text-align: justify;
+    @media (min-width: 1024px) {
+      font-size: 20px;
+      margin: 40px;
+    }
   }
   &__btn {
     width: 140px;
@@ -31,9 +40,9 @@
       border: $textblue;
       font-size: 20px;
     }
+    @media (min-width: 1024px) {
+      font-size: 20px;
+    }
   }
 }
-.scrollup{
-    font-size: 35px;
-    margin-bottom: 10px;
-}
+

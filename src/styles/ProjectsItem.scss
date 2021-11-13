@@ -1,19 +1,61 @@
 @import 'core/variables';
 @import 'core/reset';
 
-.projects__list--item__title{
-    margin: 15px 0px 10px 0px;
+.projects__list--item {
+  background-image: url('../images/transparent-circles.png');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: white;
+  box-shadow: 1px 0px 5px 2px $shadowblue;
+  border-radius: 5px;
+  min-width: 200px;
+  min-height: 275px;
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  @media (min-width: 1024px) {
+    margin: 50px;
+    display: grid;
+    grid-template-columns: 35% 5% 60%;
+    grid-template-rows: 10% 80% 10%;
   }
-.projects__list--item__img{
-    width: 75%;
-    margin: 10px;
-    border-radius: 10px;
-  }
-.projects__list--item__text{
-    font-size: 14px;
-    margin: 10px 24px 10px 24px;
+}
+
+.projects__list--item__title {
+  margin: 15px 0px 10px 0px;
+  @media (min-width: 1024px) {
+    font-size: 25px;
     text-align: center;
+    margin-bottom: 8rem;
+    grid-column-start: 3;
+    grid-row-start: 2;
   }
+}
+.projects__list--item__img {
+  width: 85%;
+  margin: 10px;
+  border-radius: 10px;
+  @media (min-width: 1024px) {
+    grid-column-start: 1;
+    grid-row-start: 1;
+    grid-row-end: 4;
+    margin-left: 40px;
+  }
+}
+.projects__list--item__text {
+  font-size: 14px;
+  margin: 10px 24px 10px 24px;
+  text-align: center;
+  @media (min-width: 1024px) {
+    font-size: 20px;
+    margin-top: 4rem;
+    grid-column-start: 3;
+    grid-row-start: 2;
+  }
+}
 
 .projects__linknav {
   display: flex;
@@ -28,5 +70,14 @@
     margin: 10px;
     text-align: center;
     line-height: 1.7;
+  }
+  @media (min-width: 1024px) {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    justify-content: space-evenly;
+    grid-column-start: 2;
+    grid-row-start: 2;
   }
 }

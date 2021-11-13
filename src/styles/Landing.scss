@@ -2,6 +2,7 @@
 @import 'core/variables';
 .header {
   color: $linenwhite;
+  background: $textblue;
   text-align: center;
   height: 100vh;
   background-image: url('../images/blue-circles-4k-minimal-blue-backgrounds-circles-patterns-besthqwallpapers.com-1366x768.jpg');
@@ -16,16 +17,29 @@
     font-size: 35px;
     margin-top: 50px;
     margin-bottom: 15px;
+    @media (min-width: 1024px) {
+      font-size: 50px;
+      margin-top: 60px;
+      margin-bottom: 20px;
+    }
   }
+
   &__subt {
     font-size: 20px;
     margin-bottom: 15px;
+    @media (min-width: 1024px) {
+      font-size: 30px;
+      margin-bottom: 20px;
+    }
   }
   &__linknav {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     font-size: 15px;
+    @media (min-width: 1024px) {
+      font-size: 25px;
+    }
     &--link {
       border: 2px solid $linenwhite;
       width: 30px;
@@ -33,6 +47,14 @@
       border-radius: 15px;
       line-height: 1.8;
       margin: 5px;
+      @media (min-width: 1024px) {
+        border: 3px solid $linenwhite;
+        width: 40px;
+        height: 40px;
+        border-radius: 20px;
+        line-height: 1.5;
+        margin: 10px;
+      }
     }
   }
   &__image {
@@ -40,6 +62,9 @@
     border-radius: 50%;
     border: 2px solid $linenwhite;
     margin: auto;
+    @media (min-width: 1024px) {
+      width: 18%;
+    }
   }
   &__menu {
     display: flex;
@@ -60,9 +85,9 @@
         border: $linenwhite;
         font-size: 20px;
       }
+      @media (min-width: 1024px) {
+        margin: 0px 20px 40px 5px;
+      }
     }
   }
 }
-
-
-
