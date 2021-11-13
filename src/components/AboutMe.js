@@ -18,18 +18,20 @@ const AboutMe = () => {
         me conozcas un poco más.
       </article>
       <button className="aboutme__btn">
-      <a
-        href="https://drive.google.com/file/d/1iDaLCUMkIDttYNs9ktbGYUvaZobLqGMI/view?usp=sharing"
-        target="_blank"
-        rel="noreferrer"
-      >Ver CV
-      </a>
+        <a
+          href="https://drive.google.com/file/d/1iDaLCUMkIDttYNs9ktbGYUvaZobLqGMI/view?usp=sharing"
+          target="_blank"
+          rel="noreferrer"
+        >
+          Ver CV
+        </a>
       </button>
       <article className="aboutme__article">
         Trabajo cada día en mejorar mis conocimientos en proyectos personales
         que iré añadiendo por aquí próximamente, y cuando no estoy en ello sigo
         buscando retos en proyectos DIY, lo mismo hago un jersey que pinto una
-        cómoda o te arreglo el grifo de la cocina que gotea...cualquier cosa se puede aprender.
+        cómoda o te arreglo el grifo de la cocina que gotea...cualquier cosa se
+        puede aprender.
       </article>
       <Link smooth={true} to="header" className="link">
         <i className="scrollup far fa-arrow-alt-circle-up"></i>

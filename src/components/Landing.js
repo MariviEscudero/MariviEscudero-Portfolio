@@ -8,7 +8,7 @@ const Landing = () => {
     <header className="header" name="header">
       <h1 className="header__title">Mariví Escudero</h1>
       <h2 className="header__subt">Jr Frontend Developer</h2>
-     <LinkNav/>
+      <LinkNav />
       <img className="header__image" src={Photo} alt="MariviEscudero" />
       <nav className="header__menu">
         <button className="header__menu--btn">
@@ -18,7 +18,7 @@ const Landing = () => {
         </button>
         <button className="header__menu--btn">
           <Link smooth={true} to="projects" className="link">
-          Proyectos
+            Proyectos
           </Link>
         </button>
       </nav>

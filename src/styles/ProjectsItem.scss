@@ -26,8 +26,10 @@
 
 .projects__list--item__title {
   margin: 15px 0px 10px 0px;
-  @media (min-width: 1024px) {
+  @media (min-width: 768px) {
     font-size: 25px;
+  }
+  @media (min-width: 1024px) {
     text-align: center;
     margin-bottom: 8rem;
     grid-column-start: 3;
@@ -49,8 +51,10 @@
   font-size: 14px;
   margin: 10px 24px 10px 24px;
   text-align: center;
+  @media (min-width: 768px) {
+    font-size: 18px;
+  }
   @media (min-width: 1024px) {
-    font-size: 20px;
     margin-top: 4rem;
     grid-column-start: 3;
     grid-row-start: 2;
