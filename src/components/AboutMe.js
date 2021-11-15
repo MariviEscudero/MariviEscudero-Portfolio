@@ -13,7 +13,7 @@ const AboutMe = () => {
         hora de tomar decisiones de responsabilidad y resolver problemas, así
         como de conocer las necesidades de clientes y equipos para trabajar en
         línea con ellos. Mi curiosidad, inquietud y búsqueda de nuevos retos me
-        han llevado a terminar el bootcamp de Adalab, donde vuelvo a ser junior
+        han llevado a terminar el bootcamp de Desarrollo Web en <a className="adalablink"href="https://adalab.es/" target="_blank" rel="noreferrer">Adalab</a>, donde vuelvo a ser junior
         y busco mi primer empleo en el sector IT. Dejo por aquí mi CV para que
         me conozcas un poco más.
       </article>
