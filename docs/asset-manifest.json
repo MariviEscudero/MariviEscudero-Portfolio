@@ -1,27 +1,28 @@
 {
   "files": {
-    "main.css": "./static/css/main.fcffeea0.chunk.css",
-    "main.js": "./static/js/main.144dec81.chunk.js",
-    "main.js.map": "./static/js/main.144dec81.chunk.js.map",
+    "main.css": "./static/css/main.dab17af3.chunk.css",
+    "main.js": "./static/js/main.37ba89c7.chunk.js",
+    "main.js.map": "./static/js/main.37ba89c7.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.cb67231f.js",
     "runtime-main.js.map": "./static/js/runtime-main.cb67231f.js.map",
     "static/js/2.24d01a7f.chunk.js": "./static/js/2.24d01a7f.chunk.js",
     "static/js/2.24d01a7f.chunk.js.map": "./static/js/2.24d01a7f.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.fcffeea0.chunk.css.map": "./static/css/main.fcffeea0.chunk.css.map",
+    "static/css/main.dab17af3.chunk.css.map": "./static/css/main.dab17af3.chunk.css.map",
     "static/js/2.24d01a7f.chunk.js.LICENSE.txt": "./static/js/2.24d01a7f.chunk.js.LICENSE.txt",
-    "static/media/140638152-6a0e1272-6d3d-417a-af9b-3aa206cb9731.ff9a7fea.png": "./static/media/140638152-6a0e1272-6d3d-417a-af9b-3aa206cb9731.ff9a7fea.png",
-    "static/media/140638417-c6cc6226-5f7e-43b8-a7c8-4e66e572b9ca.79d2d624.png": "./static/media/140638417-c6cc6226-5f7e-43b8-a7c8-4e66e572b9ca.79d2d624.png",
-    "static/media/140638571-7019b807-35c0-4bba-8869-062261a72a37.5e22aa0e.png": "./static/media/140638571-7019b807-35c0-4bba-8869-062261a72a37.5e22aa0e.png",
-    "static/media/140638847-afc0ba97-01b8-4327-8465-4844695c8999.8d239908.png": "./static/media/140638847-afc0ba97-01b8-4327-8465-4844695c8999.8d239908.png",
+    "static/media/anonymousproxy.d1c6d249.png": "./static/media/anonymousproxy.d1c6d249.png",
     "static/media/Landing.scss": "./static/media/blue-circles-4k-minimal-blue-backgrounds-circles-patterns-besthqwallpapers.com-1366x768.773749b6.jpg",
+    "static/media/buscadordeseries.522f681f.png": "./static/media/buscadordeseries.522f681f.png",
     "static/media/f5c3de11-8857-4001-98b2-2317ad932616.0cb497f9.jpg": "./static/media/f5c3de11-8857-4001-98b2-2317ad932616.0cb497f9.jpg",
+    "static/media/jabbasthehut.497dcc5b.png": "./static/media/jabbasthehut.497dcc5b.png",
+    "static/media/las4fantasticas.d68cce70.png": "./static/media/las4fantasticas.d68cce70.png",
+    "static/media/rick&morty.c8185503.png": "./static/media/rick&morty.c8185503.png",
     "static/media/ProjectsItem.scss": "./static/media/transparent-circles.d04b0c8b.png"
   },
   "entrypoints": [
     "static/js/runtime-main.cb67231f.js",
     "static/js/2.24d01a7f.chunk.js",
-    "static/css/main.fcffeea0.chunk.css",
-    "static/js/main.144dec81.chunk.js"
+    "static/css/main.dab17af3.chunk.css",
+    "static/js/main.37ba89c7.chunk.js"
   ]
 }
