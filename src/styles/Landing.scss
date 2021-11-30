@@ -47,24 +47,6 @@
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    &--btn {
-      width: 145px;
-      height: 40px;
-      border-radius: 20px;
-      margin: 0px 5px 50px 5px;
-      font-family: $mainfont;
-      font-size: 18px;
-      font-weight: bold;
-      border: 3px solid $linenwhite;
-      color: $linenwhite;
-      background-clip: text;
-      &:hover {
-        border: $linenwhite;
-        font-size: 20px;
-      }
-      @media (min-width: 1024px) {
-        margin: 0px 20px 40px 5px;
-      }
-    }
+   
   }
 }
