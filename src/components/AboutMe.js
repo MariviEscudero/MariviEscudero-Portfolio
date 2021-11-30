@@ -2,13 +2,13 @@ import { Link } from 'react-scroll';
 import '../styles/AboutMe.scss';
 
 const AboutMe = (props) => {
-  const renderText1 = props.textData.map((text, index) => (
-    <article key={index} className="aboutme__article">
+  const renderText1 = props.textData.map((text) => (
+    <article key={text.id} className="aboutme__article">
       {text.aboutme1}
     </article>
   ));
-  const renderText2 = props.textData.map((text, index) => (
-    <article key={index} className="aboutme__article">
+  const renderText2 = props.textData.map((text) => (
+    <article key={text.id} className="aboutme__article">
       {text.aboutme2}
     </article>
   ));
