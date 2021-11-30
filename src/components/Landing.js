@@ -8,14 +8,14 @@ import LangBtn from './LangBtn';
 const Landing = (props) => {
   return (
     <header className="header" name="header">
-      <h1 className="header__title">Mariví Escudero</h1>
-      <h2 className="header__subt">Jr Frontend Developer</h2>
-      <LinkNav />
-      <LangBtn
+       <LangBtn
       data={props.data}
       value = {props.value} 
       handleLangBtn={props.handleLangBtn}
       />
+      <h1 className="header__title">Mariví Escudero</h1>
+      <h2 className="header__subt">Jr Frontend Developer</h2>
+      <LinkNav />
       <img className="header__image" src={Photo} alt="MariviEscudero" />
       <nav className="header__menu">
         <Btn text={'Sobre mí'} link={'aboutme'} />

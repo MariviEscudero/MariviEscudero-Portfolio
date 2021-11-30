@@ -1,5 +1,4 @@
 import '../styles/ProjectsItem.scss';
-
 const ProjectsItem = (props) => {
   return (
     <>
