@@ -1,23 +1,21 @@
 {
   "files": {
-    "main.css": "./static/css/main.ea88605c.chunk.css",
-    "main.js": "./static/js/main.cbf07ae0.chunk.js",
-    "main.js.map": "./static/js/main.cbf07ae0.chunk.js.map",
+    "main.css": "./static/css/main.e66172dc.chunk.css",
+    "main.js": "./static/js/main.b9e41736.chunk.js",
+    "main.js.map": "./static/js/main.b9e41736.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.cb67231f.js",
     "runtime-main.js.map": "./static/js/runtime-main.cb67231f.js.map",
-    "static/js/2.d5e5635f.chunk.js": "./static/js/2.d5e5635f.chunk.js",
-    "static/js/2.d5e5635f.chunk.js.map": "./static/js/2.d5e5635f.chunk.js.map",
+    "static/js/2.adb2e02a.chunk.js": "./static/js/2.adb2e02a.chunk.js",
+    "static/js/2.adb2e02a.chunk.js.map": "./static/js/2.adb2e02a.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.ea88605c.chunk.css.map": "./static/css/main.ea88605c.chunk.css.map",
-    "static/js/2.d5e5635f.chunk.js.LICENSE.txt": "./static/js/2.d5e5635f.chunk.js.LICENSE.txt",
-    "static/media/Landing.scss": "./static/media/blue-circles-4k-minimal-blue-backgrounds-circles-patterns-besthqwallpapers.com-1366x768.773749b6.jpg",
-    "static/media/f5c3de11-8857-4001-98b2-2317ad932616.0cb497f9.jpg": "./static/media/f5c3de11-8857-4001-98b2-2317ad932616.0cb497f9.jpg",
-    "static/media/ProjectsItem.scss": "./static/media/transparent-circles.d04b0c8b.png"
+    "static/css/main.e66172dc.chunk.css.map": "./static/css/main.e66172dc.chunk.css.map",
+    "static/js/2.adb2e02a.chunk.js.LICENSE.txt": "./static/js/2.adb2e02a.chunk.js.LICENSE.txt",
+    "static/media/f5c3de11-8857-4001-98b2-2317ad932616.0cb497f9.jpg": "./static/media/f5c3de11-8857-4001-98b2-2317ad932616.0cb497f9.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.cb67231f.js",
-    "static/js/2.d5e5635f.chunk.js",
-    "static/css/main.ea88605c.chunk.css",
-    "static/js/main.cbf07ae0.chunk.js"
+    "static/js/2.adb2e02a.chunk.js",
+    "static/css/main.e66172dc.chunk.css",
+    "static/js/main.b9e41736.chunk.js"
   ]
 }
