@@ -2,12 +2,12 @@
 @import 'core/reset';
 .header__form--select {
   position: absolute;
-  top: 10%;
-  right: 5%;
-  height: 30px;
-  width: 60px;
-  border-radius: 15px;
-  font-size: 20px;
+  top: 2%;
+  right: 4%;
+  height: 25px;
+  width: 40px;
+  border-radius: 12px;
+  font-size: 16px;
   font-weight: 700;
   background-color: transparent;
   color: $linenwhite;
@@ -15,12 +15,25 @@
   text-align: center;
   -webkit-appearance: none;
   -moz-appearance: none;
+  @media (min-width: 768px) {
+    position: absolute;
+    top: 10%;
+    right: 5%;
+    height: 30px;
+    width: 60px;
+    border-radius: 15px;
+    font-size: 20px;
+    font-weight: 700;
+  }
   &:focus {
     outline: none;
   }
   &:hover {
     border: transparent;
-    font-size: 22px;
+    font-size: 18px;
+    @media (min-width: 768px) {
+      font-size: 22px;
+    }
   }
   &__option {
     color: $graphiteblack;

@@ -2,12 +2,9 @@
 @import 'core/reset';
 
 .projects__list--item {
-  background-image: url('../images/transparent-circles.png');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-color: white;
-  box-shadow: 1px 0px 5px 2px $shadowblue;
+ 
+  background-color: black;
+  box-shadow: 1px 0px 5px 2px grey;
   border-radius: 5px;
   min-width: 200px;
   min-height: 275px;
@@ -67,7 +64,7 @@
   justify-content: space-between;
   font-size: 20px;
   &--link {
-    border: 3px solid #004254;
+    border: 3px solid $linenwhite;
     width: 40px;
     height: 40px;
     border-radius: 20px;

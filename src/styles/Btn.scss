@@ -2,15 +2,13 @@
 @import 'core/reset';
 
 .header__menu--btn {
-  width: 145px;
+  min-width: 145px;
   height: 40px;
-  border-radius: 20px;
   margin: 0px 5px 50px 5px;
   font-family: $mainfont;
   font-size: 18px;
   font-weight: bold;
-  border: 3px solid $linenwhite;
-  color: $linenwhite;
+  color: #56C9AC;
   background-clip: text;
   &:hover {
     border: $linenwhite;

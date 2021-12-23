@@ -1,4 +1,5 @@
 import '../styles/LangBtn.scss';
+
 const LangBtn = (props) => {
     const handleLangBtn = (ev) => {
         props.handleLangBtn(ev.target.value)

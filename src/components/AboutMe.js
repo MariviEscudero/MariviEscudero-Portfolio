@@ -24,7 +24,7 @@ const AboutMe = (props) => {
           target="_blank"
           rel="noreferrer"
         >
-          Ver CV
+          {`<Ver CV/>`}
         </a>
       </button>
       {renderText2}

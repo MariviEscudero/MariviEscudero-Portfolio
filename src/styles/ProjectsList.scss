@@ -1,7 +1,8 @@
 @import 'core/variables';
 @import 'core/reset';
 .projects {
-  color: $textblue;
+  background-color: black;
+  color: $linenwhite;
   display: flex;
   flex-direction: column;
   justify-content: center;

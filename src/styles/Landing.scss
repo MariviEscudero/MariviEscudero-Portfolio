@@ -2,51 +2,97 @@
 @import 'core/variables';
 .header {
   color: $linenwhite;
-  background: $textblue;
+  background: black;
   text-align: center;
   height: 100vh;
-  background-image: url('../images/blue-circles-4k-minimal-blue-backgrounds-circles-patterns-besthqwallpapers.com-1366x768.jpg');
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
+
+  &__span1 {
+    color: #848372;
+  }
+  &__span2 {
+    color: #539ed3;
+  }
+  &__par {
+    font-size: 20px;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 20px;
+  }
+  .anim-typewriter1 {
+    animation: typewriter1 4s steps(36) 1s 1 normal both;
+  }
+  @keyframes typewriter1 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 18em;
+    }
+  }
   &__title {
+    white-space: nowrap;
+    overflow: hidden;
     font-size: 35px;
-    margin-top: 50px;
     margin-bottom: 15px;
+    color: $linenwhite;
     @media (min-width: 1024px) {
       font-size: 50px;
-      margin-top: 60px;
       margin-bottom: 20px;
     }
   }
+  .anim-typewriter2 {
+    animation: typewriter2 4s steps(36) 5s 1 normal both;
+  }
+  @keyframes typewriter2 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 18em;
+    }
+  }
+
   &__subt {
+    white-space: nowrap;
+    overflow: hidden;
     font-size: 20px;
     margin-bottom: 15px;
+    color: $linenwhite;
     @media (min-width: 1024px) {
       font-size: 30px;
       margin-bottom: 20px;
     }
   }
+  .anim-typewriter3 {
+    animation: typewriter3 4s steps(36) 10s 1 normal both;
+  }
+  @keyframes typewriter3 {
+    from {
+      width: 0;
+    }
+    to {
+      width: 20em;
+    }
+  }
   &__image {
     width: 60%;
     border-radius: 50%;
-    border: 2px solid $linenwhite;
     margin: auto;
     @media (min-width: 768px) {
       width: 30%;
     }
     @media (min-width: 1024px) {
-      width: 18%;
+      width: 15%;
+      border-radius: 0%;
     }
   }
   &__menu {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-   
   }
 }

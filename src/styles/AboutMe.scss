@@ -1,11 +1,12 @@
 @import 'core/variables';
 @import 'core/reset';
 .aboutme {
+  background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  color: $textblue;
+  color: $linenwhite;
   height: 100vh;
   &__title {
     font-size: 20px;
@@ -31,29 +32,17 @@
     }
   }
   &__btn {
-    width: 140px;
+    min-width: 140px;
     height: 40px;
-    border-radius: 20px;
     margin: 5px;
     font-family: $mainfont;
     font-size: 18px;
     font-weight: bold;
-    border: 3px solid $textblue;
-    color: $textblue;
+    color: #56c9ac;
     background-clip: text;
     &:hover {
       border: $textblue;
       font-size: 20px;
     }
-
-    @media (min-width: 1024px) {
-      font-size: 20px;
-      &:hover {
-        font-size: 22px;
-      }
-    }
   }
-}
-.adalablink{
-  font-weight: bolder;
 }
