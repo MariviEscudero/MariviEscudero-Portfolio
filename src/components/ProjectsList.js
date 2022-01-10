@@ -18,7 +18,7 @@ const ProjectsList = (props) => {
       </p>
       <ul className="projects__list">{renderProjects}</ul>
       <Link smooth={true} to="header" className="link">
-        <i className="scrollup far fa-arrow-alt-circle-up"></i>
+        <i className="scrollup far fa-caret-square-up"></i>
       </Link>
     </section>
   );

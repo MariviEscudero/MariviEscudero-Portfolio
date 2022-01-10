@@ -29,7 +29,7 @@ const AboutMe = (props) => {
       </button>
       {renderText2}
       <Link smooth={true} to="header" className="link">
-        <i className="scrollup far fa-arrow-alt-circle-up"></i>
+      <i className="scrollup far fa-caret-square-up"></i>
       </Link>
     </section>
   );
