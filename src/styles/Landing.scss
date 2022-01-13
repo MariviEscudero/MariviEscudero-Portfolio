@@ -2,7 +2,6 @@
 @import 'core/variables';
 .header {
   color: $linenwhite;
-  background: $graphiteblack;
   text-align: center;
   height: 100vh;
   display: flex;
@@ -11,10 +10,10 @@
   align-items: center;
 
   &__span1 {
-    color: #848372;
+    color: $htmlgrey;
   }
   &__span2 {
-    color: #539ed3;
+    color: $htmlblue;
   }
   &__par {
     font-size: 14px;

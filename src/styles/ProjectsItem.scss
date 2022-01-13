@@ -3,8 +3,8 @@
 
 .projects__list--item {
  
-  background-color: black;
-  box-shadow: 1px 0px 5px 2px grey;
+  background-color: $black;
+  box-shadow: 1px 0px 5px 2px $shadowgrey;
   border-radius: 5px;
   min-width: 200px;
   min-height: 275px;

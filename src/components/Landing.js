@@ -28,8 +28,8 @@ const Landing = (props) => {
       />
       <img className="header__image" src={Photo} alt="MariviEscudero" />
       <nav className="header__menu">
-        <Btn text={'<Sobre mí/>'} link={'aboutme'} />
-        <Btn text={'<Proyectos/>'} link={'projects'} />
+        <Btn text={props.data[0].btn1} link={'aboutme'} />
+        <Btn text={props.data[0].btn2} link={'projects'} />
       </nav>
     </header>
   );

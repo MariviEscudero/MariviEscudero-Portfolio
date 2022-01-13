@@ -8,8 +8,9 @@
   font-family: $mainfont;
   font-size: 16px;
   font-weight: bold;
-  color: #56C9AC;
+  color: $reactgreen;
   background-clip: text;
+  border: 2px solid $reactgreen;
   &:hover {
     border: $linenwhite;
     font-size: 20px;

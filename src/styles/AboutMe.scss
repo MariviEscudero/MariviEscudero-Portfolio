@@ -1,7 +1,6 @@
 @import 'core/variables';
 @import 'core/reset';
 .aboutme {
-  background-color: black;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -38,10 +37,11 @@
     font-family: $mainfont;
     font-size: 18px;
     font-weight: bold;
-    color: #56c9ac;
+    color: $reactgreen;
     background-clip: text;
+    border: 2px solid $reactgreen;
     &:hover {
-      border: $textblue;
+      border: $linenwhite;
       font-size: 20px;
     }
   }

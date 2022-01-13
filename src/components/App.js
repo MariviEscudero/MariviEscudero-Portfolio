@@ -20,17 +20,14 @@ const App = () => {
        setData([...datasp])
      }
   };
-  console.log(data);
-  const projectsData = data.slice(1, data.length + 1);
-  const textData = data.filter(dat => dat.id==='1');
 
   return (
     <div className="page">
       <Landing data={data}
       value = {langSelected} 
       handleLangBtn={handleSelectLang} />
-      <AboutMe textData={textData} />
-      <ProjectsList projectsData={projectsData} />
+      <AboutMe data={data} />
+      <ProjectsList data={data} />
       <Footer />
     </div>
   );

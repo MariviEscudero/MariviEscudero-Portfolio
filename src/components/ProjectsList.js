@@ -3,7 +3,10 @@ import '../styles/ProjectsList.scss';
 import ProjectsItem from './ProjectsItem';
 
 const ProjectsList = (props) => {
-  const renderProjects = props.projectsData.map((project) => (
+
+  const projectsData = props.data.slice(3, props.data.length + 2);
+ 
+  const renderProjects = projectsData.map((project) => (
     <li key={project.id} className="projects__list--item">
       <ProjectsItem project={project} />
     </li>
@@ -11,10 +14,9 @@ const ProjectsList = (props) => {
 
   return (
     <section className="projects" name="projects">
-      <h4 className="projects__title">Mis proyectos</h4>
+      <h4 className="projects__title">{props.data[2].projectstitle}</h4>
       <p className="projects__text">
-        Estos son mis proyectos favoritos, donde he trabajado individualmente y
-        en equipo con las tecnologías aprendidas hasta ahora
+       {props.data[2].projectsintro}
       </p>
       <ul className="projects__list">{renderProjects}</ul>
       <Link smooth={true} to="header" className="link">

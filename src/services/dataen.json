@@ -1,48 +1,59 @@
 [
   {
     "id": "1",
-    "aboutme1": " English Ingeniero Técnico Agrícola de formación, he desarrollado mi carrera profesional en comercio, orientada al asesoramiento técnico de clientes, ventas y gestión de varias secciones y equipos. Esta experiencia me han dado la capacidad de adaptarme a los cambios y de ser resolutiva a la hora de tomar decisiones de responsabilidad y resolver problemas, así como de conocer las necesidades de clientes y equipos para trabajar en línea con ellos. Mi curiosidad, inquietud y búsqueda de nuevos retos me han llevado a terminar el bootcamp de Desarrollo Web en Adalab,donde vuelvo a ser junior y busco mi primer empleo en el sector IT. Dejo por aquí mi CV para que me conozcas un poco más.",
-
-    "aboutme2": "Trabajo cada día en mejorar mis conocimientos en proyectos personales que iré añadiendo por aquí próximamente, y cuando no estoy en ello sigo buscando retos en proyectos DIY, lo mismo hago un jersey que pinto una cómoda o te arreglo el grifo de la cocina que gotea...cualquier cosa se puede aprender."
+    "btn1": "<About me />",
+    "btn2": "<Proyects />"
   },
-  
   {
     "id": "2",
+    "aboutmetitle": "About me",
+    "aboutme1": " Agricultural Technical Engineer by training, I have developed my professional career in commerce, oriented to the technical advice of clients, sales and management of various sections and teams. This experience has given me the ability to adapt to changes and to be decisive when making responsible decisions and solving problems, as well as knowing the needs of clients and teams to work online with them. My curiosity, restlessness and search for new challenges have led me to finish the Web Development bootcamp at Adalab, where I am a junior again and I am looking for my first job in the IT sector. I leave my CV here so that you know me a little more.",
+
+    "aboutme2": "I work every day to improve my knowledge in personal projects that I will be adding here soon, and when I'm not at it I keep looking for challenges in DIY projects, the same thing I make a sweater that I paint a dresser or I fix the leaky kitchen tap. ..anything can be learned."
+  },
+
+  {
+    "id": "3",
+    "projectstitle": "My projects",
+    "projectsintro": "These are my favorite projects, where I have worked individually and as a team with the technologies learned so far"
+  },
+  {
+    "id": "4",
     "title": "Anonymous Proxy",
     "image": "https://i.ibb.co/rQ70jVG/anonymousproxy.png",
-    "description": "Primer proyecto de maquetación. Maq. de sitio web responsive, con HTML, CSS y SASS",
+    "description": "First layout project. Responsive web layout, with HTML, CSS y SASS",
     "weblink": "https://mariviescudero.github.io/Anonymous-Proxy/",
     "githublink": "https://github.com/MariviEscudero/Anonymous-Proxy"
   },
   {
-    "id": "3",
-    "title": "Maquetación web",
+    "id": "5",
+    "title": "Web Layout",
     "image": "https://i.ibb.co/pbPWKX2/las4fantasticas.png",
-    "description": "Maquetación del sitio web responsive de las 4 fantásticas (trabajo en equipo), con HTML, CSS y SASS, implementación de Formspree.",
+    "description": "Fantastic four responsive web layout (team work), with HTML, CSS y SASS, Formspree implementation.",
     "weblink": "http://beta.adalab.es/project-promo-n-module-1-team-6/",
     "githublink": "https://github.com/Adalab/project-promo-n-module-1-team-6"
   },
   {
-    "id": "4",
-    "title": "Buscador de series de TV",
+    "id": "6",
+    "title": "TV shows finder",
     "image": "https://i.ibb.co/9rxFKfg/buscador-de-series.png",
-    "description": "Proyecto indiiual realizado con JavaScript, HTML, CSS, filtrado de datos de API externa, busca las series que más te gusten y añádelas a favoritos, acuérdate de dormir, no las veas todas del tirón...",
+    "description": "Individual project made with JavaScript, HTML, CSS, external API filter, look for the shows you like the most and add them to favorites, remember to sleep, don't watch them all at once...",
     "weblink": "https://mariviescudero.github.io/Buscador-series-TV/",
     "githublink": "https://github.com/MariviEscudero/Buscador-series-TV"
   },
   {
-    "id": "5",
-    "title": "Generador de tarjetas profesionales",
+    "id": "7",
+    "title": "Business card generator",
     "image": "https://i.ibb.co/MhgRzgR/jabbasthehut.png",
-    "description": "Proyecto del equipo Jabba´s The Hutt, realizado con JavaScript, HTML, SASS, envío de datos a API, rellena el formulario, crea tu tarjeta de visita, y comparte en redes!",
+    "description": "Jabba´s The Hutt team JavaScript project, HTML, SASS, send data to API, fill the form, create your personal card and share it!",
     "weblink": "http://beta.adalab.es/project-promo-n-module-2-team-2/",
     "githublink": "https://github.com/Adalab/project-promo-n-module-2-team-2"
   },
   {
-    "id": "6",
-    "title": "Guía de personajes Rick&Morty",
+    "id": "8",
+    "title": "Rick&Morty characters index",
     "image": "https://i.ibb.co/yYkYqfF/rick-morty.png",
-    "description": "Proyecto individual realizado con React, HTML, SCSS. Filtrado de datos de API, control de rutas. Busca a tus personajes favoritos de la serie Rick&Morty, puedes saber más sobre ellos haciendo click sobre cada uno.",
+    "description": "Individual project made with React, HTML, SCSS. External API filter, control de rutas. Look for your favorite characters from the Rick & Morty, you can learn more about them by clicking on each one.",
     "weblink": "https://mariviescudero.github.io/Rick-and-Morty-Characters-Index/#/",
     "githublink": "https://github.com/MariviEscudero/Rick-and-Morty-Characters-Index"
   }
