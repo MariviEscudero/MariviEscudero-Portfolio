@@ -19,7 +19,7 @@
   },
   {
     "id": "4",
-    "title": "Anonymous Proxy",
+    "title": "A:/ Anonymous Proxy",
     "image": "https://i.ibb.co/rQ70jVG/anonymousproxy.png",
     "description": "First layout project. Responsive web layout, with HTML, CSS y SASS",
     "weblink": "https://mariviescudero.github.io/Anonymous-Proxy/",
@@ -27,7 +27,7 @@
   },
   {
     "id": "5",
-    "title": "Web Layout",
+    "title": "B:/ Web Layout",
     "image": "https://i.ibb.co/pbPWKX2/las4fantasticas.png",
     "description": "Fantastic four responsive web layout (team work), with HTML, CSS y SASS, Formspree implementation.",
     "weblink": "http://beta.adalab.es/project-promo-n-module-1-team-6/",
@@ -35,7 +35,7 @@
   },
   {
     "id": "6",
-    "title": "TV shows finder",
+    "title": "C:/ TV shows finder",
     "image": "https://i.ibb.co/9rxFKfg/buscador-de-series.png",
     "description": "Individual project made with JavaScript, HTML, CSS, external API filter, look for the shows you like the most and add them to favorites, remember to sleep, don't watch them all at once...",
     "weblink": "https://mariviescudero.github.io/Buscador-series-TV/",
@@ -43,7 +43,7 @@
   },
   {
     "id": "7",
-    "title": "Business card generator",
+    "title": "D:/ Business card generator",
     "image": "https://i.ibb.co/MhgRzgR/jabbasthehut.png",
     "description": "Jabba´s The Hutt team JavaScript project, HTML, SASS, send data to API, fill the form, create your personal card and share it!",
     "weblink": "http://beta.adalab.es/project-promo-n-module-2-team-2/",
@@ -51,7 +51,7 @@
   },
   {
     "id": "8",
-    "title": "Rick&Morty characters index",
+    "title": "E:/ Rick&Morty characters index",
     "image": "https://i.ibb.co/yYkYqfF/rick-morty.png",
     "description": "Individual project made with React, HTML, SCSS. External API filter, control de rutas. Look for your favorite characters from the Rick & Morty, you can learn more about them by clicking on each one.",
     "weblink": "https://mariviescudero.github.io/Rick-and-Morty-Characters-Index/#/",
