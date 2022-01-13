@@ -7,7 +7,7 @@ const AboutMe = (props) => {
   return (
     <section className="aboutme" name="aboutme">
       <h3 className="aboutme__title">
-      {aboutmeData[0].title}
+      {aboutmeData[0].aboutmetitle}
     </h3>
     <article  className="aboutme__article">
       {aboutmeData[0].aboutme1}
