@@ -1,0 +1,23 @@
+@import 'core/variables';
+@import 'core/reset';
+.header__navbar{
+    background-color: white;
+    color: $htmlgrey;
+    box-shadow: 5px 5px 5px #859fc467;
+    position: fixed;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 100vw;
+    height: 50px;
+    z-index: 99999;
+    &--link {
+        font-size: 15px;
+        @media (min-width: 1024px) {
+          font-size: 18px;
+        }
+       
+    }
+}

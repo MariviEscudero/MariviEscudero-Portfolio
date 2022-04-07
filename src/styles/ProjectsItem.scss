@@ -2,9 +2,8 @@
 @import 'core/reset';
 
 .projects__list--item {
- 
-  background-color: $black;
-  box-shadow: 1px 0px 5px 2px $shadowgrey;
+ background-color: $linenwhite;
+  box-shadow: 1px 0px 1px 2px $shadowgrey;
   border-radius: 5px;
   min-width: 200px;
   min-height: 275px;
@@ -13,49 +12,38 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  @media (min-width: 1024px) {
-    margin: 50px;
-    display: grid;
-    grid-template-columns: 35% 5% 60%;
-    grid-template-rows: 10% 80% 10%;
+  &:hover{
+    transform: scale(1.03);
+   
+  background: rgb(250,240,230);
+  background: linear-gradient(0deg, rgba(250,240,230,1) 0%, rgba(164,180,205,1) 100%);
+    box-shadow: 1px 0px 5px 2px $shadowgrey;
   }
+ 
 }
 
 .projects__list--item__title {
-  margin: 15px 0px 10px 0px;
+  margin: 20px 0px 20px 0px;
   @media (min-width: 768px) {
     font-size: 25px;
   }
-  @media (min-width: 1024px) {
-    text-align: center;
-    margin-bottom: 8rem;
-    grid-column-start: 3;
-    grid-row-start: 2;
-  }
+ 
 }
 .projects__list--item__img {
   width: 85%;
   margin: 10px;
   border-radius: 10px;
-  @media (min-width: 1024px) {
-    grid-column-start: 1;
-    grid-row-start: 1;
-    grid-row-end: 4;
-    margin-left: 40px;
-  }
+ 
 }
 .projects__list--item__text {
   font-size: 14px;
   margin: 10px 24px 10px 24px;
   text-align: center;
+  line-height: 1.2;
   @media (min-width: 768px) {
-    font-size: 18px;
+    font-size: 16px;
   }
-  @media (min-width: 1024px) {
-    margin-top: 4rem;
-    grid-column-start: 3;
-    grid-row-start: 2;
-  }
+ 
 }
 
 .projects__linknav {
@@ -64,20 +52,17 @@
   justify-content: space-between;
   font-size: 20px;
   &--link {
-    border: 3px solid $linenwhite;
     width: 40px;
     height: 40px;
+    border-radius: 50%;
+    color: white;
+    background-color: #859FC4;
     margin: 10px;
     text-align: center;
-    line-height: 1.7;
+    line-height: 1.9;
+    &:hover{
+      background-color: #859fc4bd;
+    }
   }
-  @media (min-width: 1024px) {
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
-    justify-content: space-evenly;
-    grid-column-start: 2;
-    grid-row-start: 2;
-  }
+ 
 }

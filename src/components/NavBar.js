@@ -1,41 +1,47 @@
-import '../styles/LinkNav.scss';
+import '../styles/NavBar.scss';
+import LangBtn from './LangBtn';
 
-const LinkNav = () => {
+const NavBar = (props) => {
   return (
-    <nav className="linknav">
+    <nav className="header__navbar">
       <a
-        className="linknav__link"
+        className="header__navbar--link"
         href="https://github.com/MariviEscudero"
         rel="noreferrer"
         target="_blank"
       >
-        <i className="fab fa-github-alt"></i>
+        GITHUB
       </a>
       <a
-        className="linknav__link"
+        className="header__navbar--link"
         href="https://www.linkedin.com/in/mariviescudero/"
         rel="noreferrer"
         target="_blank"
       >
-        <i className="fab fa-linkedin-in"></i>
+        LINKEDIN
       </a>
       <a
-        className="linknav__link"
+        className="header__navbar--link"
         href="https://twitter.com/MoranMarivi"
         rel="noreferrer"
         target="_blank"
       >
-        <i className="fab fa-twitter"></i>
+        TWITTER
       </a>
       <a
-        className="linknav__link"
+        className="header__navbar--link"
         href="mailto:mariviesmo@gmail.com"
         rel="noreferrer"
         target="_blank"
       >
-        <i className="fas fa-at"></i>
+        CONTACT
       </a>
+      <LangBtn
+      data={props.data}
+      value = {props.value} 
+      handleLangBtn={props.handleLangBtn}
+      />
     </nav>
   );
 };
-export default LinkNav;
+export default NavBar;

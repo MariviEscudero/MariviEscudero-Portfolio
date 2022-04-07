@@ -1,15 +1,13 @@
 @import 'core/variables';
 @import 'core/reset';
 .aboutme {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  color: $linenwhite;
+  color: $graphiteblack;
   height: 100vh;
+  padding-top: 50px;
   &__title {
     font-size: 20px;
-    margin-top: 20px;
+    margin: 40px 0px 40px 30px;
+
     @media (min-width: 768px) {
       font-size: 30px;
     }
@@ -17,32 +15,57 @@
       font-size: 40px;
     }
   }
+  &__image {
+    width: 400px;
+    height: 400px;
+    margin: 40px 100px 0 30px;
+    box-shadow: inset 0px 0px 300px 300px rgba(133, 159, 196, 0.6);
+    clip-path: circle();
+    shape-outside: circle();
+    float: left;
+    background-image: url(../images/1648032498973.jpg);
+    background-position: center;
+    background-size: cover;
+    background-blend-mode: saturation;
+
+    /*@media (min-width: 768px) {
+      width: 30%;
+    }
+    @media (min-width: 1024px) {
+      width: 15%;
+    }*/
+  }
   &__article {
     font-size: 12px;
     margin: 20px;
-    text-align: justify;
+
     @media (min-width: 768px) {
       font-size: 18px;
       margin: 30px;
     }
     @media (min-width: 1024px) {
       font-size: 20px;
-      margin: 40px;
+      line-height: 1.5rem;
     }
   }
   &__btn {
-    min-width: 140px;
+    min-width: 145px;
     height: 40px;
-    margin: 5px;
     font-family: $mainfont;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: bold;
-    color: $reactgreen;
-    background-clip: text;
-    border: 2px solid $reactgreen;
+    color: $linenwhite;
+    background-color: #859fc4;
+    border: $htmlblue;
+    border-radius: 20px;
+    margin-left: 25%;
+   
     &:hover {
-      border: $linenwhite;
-      font-size: 20px;
+      background-color: #859fc4bd;
     }
+
+    /*@media (min-width: 1024px) {
+      margin: 0px 20px  5px;
+    }*/
   }
 }

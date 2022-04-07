@@ -19,9 +19,9 @@ const ProjectsList = (props) => {
        {props.data[2].projectsintro}
       </p>
       <ul className="projects__list">{renderProjects}</ul>
-      <Link smooth={true} to="header" className="link">
-        <i className="scrollup far fa-caret-square-up"></i>
+      <Link smooth={true} to="header" className="link"> <i class="fa-solid fa-arrow-up scrollup"></i>
       </Link>
+     
     </section>
   );
 };

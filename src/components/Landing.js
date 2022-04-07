@@ -1,36 +1,43 @@
 import '../styles/Landing.scss';
-import Photo from '../images/f5c3de11-8857-4001-98b2-2317ad932616.jpg';
-import LinkNav from './LinkNav';
+import LandingImage from '../images/Code-typing-bro.png';
 import Btn from './Btn';
-import LangBtn from './LangBtn';
-
+import NavBar from './NavBar';
+import Icons from './Icons';
 
 const Landing = (props) => {
   return (
     <header className="header" name="header">
-      
-       <p className="header__par anim-typewriter1">
-        <span className="header__span1">{`<`}<span className="header__span2">p</span>{`>`}</span>  Hello world!!! 
-        <span className="header__span1">{`  </`}<span className="header__span2">p</span>{`>`}</span>
-        </p>
-      <h1 className="header__title anim-typewriter2">
-        <span className="header__span1">{`<`}<span className="header__span2">h1</span>{`>`}</span>  I'm Mariví Escudero 
-        <span className="header__span1">{`  </`}<span className="header__span2">h1</span>{`>`}</span>
-        </h1>
-      <h2 className="header__subt anim-typewriter3"> 
-      <span className="header__span1">{`<`}<span className="header__span2">h2</span>{`>`}</span>  Jr Frontend Developer 
-        <span className="header__span1">{`  </`}<span className="header__span2">h2</span>{`>`}</span></h2>
-      <LinkNav /> 
-      <LangBtn
-      data={props.data}
-      value = {props.value} 
-      handleLangBtn={props.handleLangBtn}
-      />
-      <img className="header__image" src={Photo} alt="MariviEscudero" />
-      <nav className="header__menu">
-        <Btn text={props.data[0].btn1} link={'aboutme'} />
-        <Btn text={props.data[0].btn2} link={'projects'} />
-      </nav>
+      <NavBar 
+       data={props.data}
+       value = {props.value} 
+       handleLangBtn={props.handleLangBtn}/>
+      <div className="grid">
+        <div className="grid1">
+          <p className="header__par">Hello world!!!</p>
+          <h1 className="header__title">
+            <span className="header__span1">
+              {`<`}
+              <span className="header__span2">h1</span>
+              {`> `}
+            </span>
+            I'm Mariví Escudero
+            <span className="header__span1">
+              {`  </`}
+              <span className="header__span2">h1</span>
+              {`>`}
+            </span>
+          </h1>
+          <h2 className="header__subt">Jr Frontend Developer</h2>
+          <Icons />
+          <nav className="header__menu">
+            <Btn text={props.data[0].btn1} link={'aboutme'} />
+            <Btn text={props.data[0].btn2} link={'projects'} />
+          </nav>
+        </div>
+        <div className="grid2">
+          <img src={LandingImage} alt="pc_image" className="header__image" />
+        </div>
+      </div>
     </header>
   );
 };

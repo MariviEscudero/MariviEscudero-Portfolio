@@ -1,0 +1,11 @@
+.header__icons{
+    font-size: 50px;
+    color: #848372;
+    margin-bottom: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    .fa-brands, .fa-solid{
+        margin-right: 15px;
+    }
+}

@@ -1,14 +1,11 @@
 @import 'core/reset';
 @import 'core/variables';
 .header {
-  color: $linenwhite;
-  text-align: center;
+  color: $graphiteblack;
+  background-color: $linenwhite;
   height: 100vh;
-  display: flex;
-  flex-direction: column;
-  justify-content:first baseline;
-  align-items: center;
-
+  padding-top: 50px;
+  
   &__span1 {
     color: $htmlgrey;
   }
@@ -17,88 +14,59 @@
   }
   &__par {
     font-size: 14px;
-    white-space: nowrap;
-    overflow: hidden;
-    margin: 20px;
+    margin-bottom: 20px;
     @media (min-width: 768px) {
-      font-size: 25px;
-    }
-  }
-  .anim-typewriter1 {
-    animation: typewriter1 4s steps(36) 1s 1 normal both;
-  }
-  @keyframes typewriter1 {
-    from {
-      width: 0;
-    }
-    to {
-      width: 18em;
+      font-size: 30px;
     }
   }
   &__title {
-    white-space: nowrap;
-    overflow: hidden;
     font-size: 16px;
-    margin-bottom: 15px;
-    color: $linenwhite;
+    color: $graphiteblack;
+    margin-bottom: 20px;
     @media (min-width: 768px) {
       font-size: 30px;
     }
     @media (min-width: 1024px) {
-      font-size: 50px;
-      margin-bottom: 20px;
-    }
-  }
-  .anim-typewriter2 {
-    animation: typewriter2 4s steps(36) 5s 1 normal both;
-  }
-  @keyframes typewriter2 {
-    from {
-      width: 0;
-    }
-    to {
-      width: 18em;
+      font-size: 40px;
     }
   }
 
   &__subt {
-    white-space: nowrap;
-    overflow: hidden;
     font-size: 14px;
-    margin-bottom: 25px;
-    color: $linenwhite;
+    color: $graphiteblack;
     @media (min-width: 768px) {
       font-size: 25px;
     }
     @media (min-width: 1024px) {
-      font-size: 30px;
-      margin-bottom: 20px;
-    }
-  }
-  .anim-typewriter3 {
-    animation: typewriter3 4s steps(36) 10s 1 normal both;
-  }
-  @keyframes typewriter3 {
-    from {
-      width: 0;
-    }
-    to {
-      width: 20em;
+      font-size: 35px;
+      margin-bottom: 40px;
     }
   }
   &__image {
-    width: 50%;
+    width: 500px;
+    height: 500px;
     margin: auto;
-    @media (min-width: 768px) {
-      width: 30%;
-    }
-    @media (min-width: 1024px) {
-      width: 15%;
-    }
+    
   }
   &__menu {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: center;
   }
+}
+.grid{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.grid1{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: flex-start;
+  margin-left: 30px;
+}
+.grid2{
+  display: flex;
+  align-items: center;
 }
