@@ -12,6 +12,9 @@ const Landing = (props) => {
        value = {props.value} 
        handleLangBtn={props.handleLangBtn}/>
       <div className="grid">
+      <div className="grid2">
+          <img src={LandingImage} alt="pc_image" className="header__image" />
+        </div>
         <div className="grid1">
           <p className="header__par">Hello world!!!</p>
           <h1 className="header__title">
@@ -34,9 +37,7 @@ const Landing = (props) => {
             <Btn text={props.data[0].btn2} link={'projects'} />
           </nav>
         </div>
-        <div className="grid2">
-          <img src={LandingImage} alt="pc_image" className="header__image" />
-        </div>
+       
       </div>
     </header>
   );

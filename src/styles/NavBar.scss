@@ -1,7 +1,7 @@
 @import 'core/variables';
 @import 'core/reset';
 .header__navbar{
-    background-color: white;
+    background-color: $purewhite;
     color: $htmlgrey;
     box-shadow: 5px 5px 5px #859fc467;
     position: fixed;
@@ -11,7 +11,7 @@
     justify-content: space-around;
     align-items: center;
     width: 100vw;
-    height: 50px;
+    height: 7vh;
     z-index: 99999;
     &--link {
         font-size: 15px;

@@ -9,11 +9,11 @@
   font-size: 16px;
   font-weight: bold;
   color: $linenwhite;
-  background-color: #859FC4;
+  background-color: $bcgblue;
   border: $htmlblue;
   border-radius: 20px;
   &:hover{
-    background-color: #859fc4bd;
+    background-color: $hoverblue;
   }
  
   @media (min-width: 1024px) {

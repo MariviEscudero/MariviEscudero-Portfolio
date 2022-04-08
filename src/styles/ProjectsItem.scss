@@ -2,67 +2,46 @@
 @import 'core/reset';
 
 .projects__list--item {
- background-color: $linenwhite;
+  background-color: $linenwhite;
   box-shadow: 1px 0px 1px 2px $shadowgrey;
-  border-radius: 5px;
   min-width: 200px;
   min-height: 275px;
-  margin: 20px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  &:hover{
+  &:hover {
     transform: scale(1.03);
-   
-  background: rgb(250,240,230);
-  background: linear-gradient(0deg, rgba(250,240,230,1) 0%, rgba(164,180,205,1) 100%);
+    background: rgb(250, 240, 230);
+    background: linear-gradient(
+      0deg,
+      rgba(250, 240, 230, 1) 0%,
+      rgba(164, 180, 205, 1) 100%
+    );
     box-shadow: 1px 0px 5px 2px $shadowgrey;
   }
- 
-}
-
-.projects__list--item__title {
-  margin: 20px 0px 20px 0px;
-  @media (min-width: 768px) {
-    font-size: 25px;
+  &__title {
+    margin: 3vh 0 3vh 0;
+    font-size: 0.6em;
   }
- 
-}
-.projects__list--item__img {
-  width: 85%;
-  margin: 10px;
-  border-radius: 10px;
- 
-}
-.projects__list--item__text {
-  font-size: 14px;
-  margin: 10px 24px 10px 24px;
-  text-align: center;
-  line-height: 1.2;
-  @media (min-width: 768px) {
-    font-size: 16px;
+  &__img {
+    width: 85%;
   }
- 
+  &__text {
+    font-size: 0.4em;
+    margin: 1rem;
+    text-align: center;
+    line-height: 1.2;
+  }
 }
 
 .projects__linknav {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-size: 20px;
+  font-size: 0.7em;
   &--link {
-    width: 40px;
-    height: 40px;
-    border-radius: 50%;
-    color: white;
-    background-color: #859FC4;
-    margin: 10px;
-    text-align: center;
-    line-height: 1.9;
-    &:hover{
-      background-color: #859fc4bd;
-    }
+    color: $bcgblue;
+    margin: 1rem;
   }
- 
 }

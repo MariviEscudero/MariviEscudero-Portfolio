@@ -2,12 +2,19 @@
 @import 'core/reset';
 
 .page {
-  font-family: $mainfont
+  font-family: $mainfont;
+  color: $graphiteblack;
+  @media (min-width: 768px) {
+    font-size: 25px;
+  }
+  @media (min-width: 1024px) {
+   font-size: 40px;
+  }
 }
 .scrollup {
   font-size: 35px;
-  color: white;
-  background-color: #859FC4;
+  color: $purewhite;
+  background-color: $bcgblue;
   width: 50px;
   height: 50px;
   border-radius: 25px;
@@ -15,9 +22,6 @@
   line-height: 1.35;
   margin: 40px;
   &:hover{
-    background-color: #859fc4bd;
+    background-color: $hoverblue;
   }
- /* @media (min-width: 1024px) {
-    font-size: 45px;
-  }*/
 }
