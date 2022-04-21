@@ -18,7 +18,6 @@ const AboutMe = (props) => {
         </a>
       </button>
       <article className="aboutme__article">{aboutmeData[0].aboutme2}</article>
-     
     </section>
   );
 };
