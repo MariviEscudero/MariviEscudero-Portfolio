@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "./static/css/main.c98eaf66.chunk.css",
-    "main.js": "./static/js/main.cc1b32e5.chunk.js",
-    "main.js.map": "./static/js/main.cc1b32e5.chunk.js.map",
+    "main.css": "./static/css/main.cb893386.chunk.css",
+    "main.js": "./static/js/main.5aa1f91b.chunk.js",
+    "main.js.map": "./static/js/main.5aa1f91b.chunk.js.map",
     "runtime-main.js": "./static/js/runtime-main.cb67231f.js",
     "runtime-main.js.map": "./static/js/runtime-main.cb67231f.js.map",
     "static/js/2.a75adf81.chunk.js": "./static/js/2.a75adf81.chunk.js",
     "static/js/2.a75adf81.chunk.js.map": "./static/js/2.a75adf81.chunk.js.map",
     "index.html": "./index.html",
-    "static/css/main.c98eaf66.chunk.css.map": "./static/css/main.c98eaf66.chunk.css.map",
+    "static/css/main.cb893386.chunk.css.map": "./static/css/main.cb893386.chunk.css.map",
     "static/js/2.a75adf81.chunk.js.LICENSE.txt": "./static/js/2.a75adf81.chunk.js.LICENSE.txt",
     "static/media/AboutMe.scss": "./static/media/1648032498973.3b436c1a.jpg",
     "static/media/Code-typing-bro.67438e32.png": "./static/media/Code-typing-bro.67438e32.png"
@@ -16,7 +16,7 @@
   "entrypoints": [
     "static/js/runtime-main.cb67231f.js",
     "static/js/2.a75adf81.chunk.js",
-    "static/css/main.c98eaf66.chunk.css",
-    "static/js/main.cc1b32e5.chunk.js"
+    "static/css/main.cb893386.chunk.css",
+    "static/js/main.5aa1f91b.chunk.js"
   ]
 }
