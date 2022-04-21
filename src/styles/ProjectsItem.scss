@@ -4,8 +4,9 @@
 .projects__list--item {
   background-color: $linenwhite;
   box-shadow: 1px 0px 1px 2px $shadowgrey;
-  min-width: 200px;
-  min-height: 275px;
+  width: 80vw;
+  height: 60vh;
+  margin: 5vh 0 5vh 0;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -20,15 +21,19 @@
     );
     box-shadow: 1px 0px 5px 2px $shadowgrey;
   }
+  @media (min-width: 768px) {
+    width: 40vw;
+    height: 80vh;
+  }
   &__title {
     margin: 3vh 0 3vh 0;
-    font-size: 0.6em;
+    font-size: 1.8em;
+    text-align: center;
   }
   &__img {
     width: 85%;
   }
   &__text {
-    font-size: 0.4em;
     margin: 1rem;
     text-align: center;
     line-height: 1.2;
@@ -39,7 +44,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
-  font-size: 0.7em;
+  font-size: 1.5em;
   &--link {
     color: $bcgblue;
     margin: 1rem;

@@ -1,4 +1,3 @@
-
 import '../styles/AboutMe.scss';
 
 const AboutMe = (props) => {

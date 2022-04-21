@@ -1,6 +1,6 @@
 import '../styles/Landing.scss';
 import LandingImage from '../images/Code-typing-bro.png';
-import Btn from './Btn';
+import Btn from './LinkBtn';
 import NavBar from './NavBar';
 import Icons from './Icons';
 
@@ -11,11 +11,11 @@ const Landing = (props) => {
        data={props.data}
        value = {props.value} 
        handleLangBtn={props.handleLangBtn}/>
-      <div className="grid">
-      <div className="grid2">
+      <div className="flex">
+      <div className="flex2">
           <img src={LandingImage} alt="pc_image" className="header__image" />
         </div>
-        <div className="grid1">
+        <div className="flex1">
           <p className="header__par">Hello world!!!</p>
           <h1 className="header__title">
             <span className="header__span1">

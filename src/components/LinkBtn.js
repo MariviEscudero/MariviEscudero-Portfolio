@@ -1,5 +1,5 @@
 import { Link } from 'react-scroll';
-import '../styles/Btn.scss';
+import '../styles/LinkBtn.scss';
 const Btn = (props) => {
   return (
     <button className="header__menu--btn">

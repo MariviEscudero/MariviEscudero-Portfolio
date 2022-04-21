@@ -1,4 +1,5 @@
 import {useState} from 'react';
+import { Link } from 'react-scroll';
 import '../styles/App.scss';
 import datasp from '../services/datasp.json';
 import dataen from '../services/dataen.json';
@@ -28,6 +29,8 @@ const App = () => {
       handleLangBtn={handleSelectLang} />
       <AboutMe data={data} />
       <ProjectsList data={data} />
+      <Link smooth={true} to="header" className="link"> <i class="fa-solid fa-arrow-up scrollup"></i>
+      </Link>
       <Footer />
     </div>
   );

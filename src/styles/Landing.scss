@@ -10,66 +10,62 @@
     justify-content: center;
     align-items: center;
   }
-
+  &__par {
+    font-size: calc(1em + 1.15vw);
+    margin-bottom: 6vh;
+  }
+  &__title {
+    font-size: calc(1em + 1.5vw);
+    margin-bottom: 2vh;
+  }
   &__span1 {
     color: $htmlgrey;
   }
   &__span2 {
     color: $htmlblue;
   }
-  &__par {
-    font-size: 0.9em;
-    margin-bottom: 6vh;
-  }
-  &__title {
-    font-size: 1em;
-    margin-bottom: 2vh;
-  }
-
   &__subt {
-    font-size: 0.9em;
+    font-size: calc(1em + 1.15vw);
     margin-bottom: 6vh;
   }
   &__image {
-    width: 80%;
-    @media (min-width: 768px){
+    width: 45vh;
+    @media (min-width: 768px) {
       margin: auto;
+      width: 45vw;
     }
-    
   }
   &__menu {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
-    @media (min-width: 768px){
-      flex-direction: row;
-    }
   }
 }
-.grid {
+.flex {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  @media (min-width: 768px){
+  @media (min-width: 768px) {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
 }
-.grid1 {
+.flex1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-left: 30px;
   @media (min-width: 768px) {
     align-items: flex-start;
+    margin-left: 30px;
+    order: 1;
   }
 }
-.grid2 {
+.flex2 {
   display: flex;
   flex-direction: column;
   align-items: center;
   @media (min-width: 768px) {
-    flex-direction: row;
+    order: 2;
   }
 }

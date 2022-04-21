@@ -4,12 +4,17 @@
 .page {
   font-family: $mainfont;
   color: $graphiteblack;
+  font-size: 12px;
   @media (min-width: 768px) {
-    font-size: 25px;
+    font-size: 16px;
   }
   @media (min-width: 1024px) {
-   font-size: 40px;
+   font-size: 18px;
   }
+}
+.link{
+  display: flex;
+  justify-content: center;
 }
 .scrollup {
   font-size: 35px;
@@ -20,7 +25,7 @@
   border-radius: 25px;
   text-align: center;
   line-height: 1.35;
-  margin: 40px;
+  margin: 3vh;
   &:hover{
     background-color: $hoverblue;
   }
