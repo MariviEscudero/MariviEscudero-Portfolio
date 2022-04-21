@@ -37,9 +37,9 @@ const NavBar = (props) => {
         CONTACT
       </a>
       <LangBtn
-      data={props.data}
-      value = {props.value} 
-      handleLangBtn={props.handleLangBtn}
+        data={props.data}
+        value={props.value}
+        handleLangBtn={props.handleLangBtn}
       />
     </nav>
   );

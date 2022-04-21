@@ -1,17 +1,18 @@
 @import 'core/variables';
 @import 'core/reset';
-.header__icons{
-    font-size: calc(1em + 1.15vw);
-    color: $htmlgrey;
-    margin-bottom: 3rem;
-    display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
-    .fa-brands, .fa-solid{
-        margin-left: 0.5rem;
-        margin-right: 0.5rem;
-        @media (min-width: 768px){
-            margin-right: 1rem;            
-        }
+.header__icons {
+  font-size: calc(1em + 1.15vw);
+  color: $htmlgrey;
+  margin-bottom: 3rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  .fa-brands,
+  .fa-solid {
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    @media (min-width: 768px) {
+      margin-right: 1rem;
     }
+  }
 }

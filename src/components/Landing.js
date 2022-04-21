@@ -7,12 +7,13 @@ import Icons from './Icons';
 const Landing = (props) => {
   return (
     <header className="header" name="header">
-      <NavBar 
-       data={props.data}
-       value = {props.value} 
-       handleLangBtn={props.handleLangBtn}/>
+      <NavBar
+        data={props.data}
+        value={props.value}
+        handleLangBtn={props.handleLangBtn}
+      />
       <div className="flex">
-      <div className="flex2">
+        <div className="flex2">
           <img src={LandingImage} alt="pc_image" className="header__image" />
         </div>
         <div className="flex1">
@@ -37,7 +38,6 @@ const Landing = (props) => {
             <Btn text={props.data[0].btn2} link={'projects'} />
           </nav>
         </div>
-       
       </div>
     </header>
   );

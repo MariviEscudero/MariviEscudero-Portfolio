@@ -12,10 +12,10 @@
   background-color: $bcgblue;
   border: $htmlblue;
   border-radius: 20px;
-  &:hover{
+  &:hover {
     background-color: $hoverblue;
   }
- 
+
   @media (min-width: 1024px) {
     margin: 0px 20px 40px 5px;
   }

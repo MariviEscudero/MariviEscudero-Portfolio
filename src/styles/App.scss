@@ -9,10 +9,10 @@
     font-size: 16px;
   }
   @media (min-width: 1024px) {
-   font-size: 18px;
+    font-size: 18px;
   }
 }
-.link{
+.link {
   display: flex;
   justify-content: center;
 }
@@ -26,7 +26,7 @@
   text-align: center;
   line-height: 1.35;
   margin: 3vh;
-  &:hover{
+  &:hover {
     background-color: $hoverblue;
   }
 }
