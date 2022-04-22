@@ -31,7 +31,7 @@ const App = () => {
       <AboutMe data={data} />
       <ProjectsList data={data} />
       <Link smooth={true} to="header" className="link">
-        <i class="fa-solid fa-arrow-up scrollup"></i>
+        <i className="fa-solid fa-arrow-up scrollup"></i>
       </Link>
       <Footer />
     </div>
