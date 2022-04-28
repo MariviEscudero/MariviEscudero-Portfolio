@@ -5,6 +5,7 @@ import NavBar from './NavBar';
 import Icons from './Icons';
 
 const Landing = (props) => {
+  const landingData = props.data.filter((dat) => dat.id === '1');
   return (
     <header className="header" name="header">
       <NavBar
@@ -24,7 +25,7 @@ const Landing = (props) => {
               <span className="header__span2">h1</span>
               {`> `}
             </span>
-            I'm Mariví Escudero
+            {landingData[0].title}
             <span className="header__span1">
               {`  </`}
               <span className="header__span2">h1</span>
