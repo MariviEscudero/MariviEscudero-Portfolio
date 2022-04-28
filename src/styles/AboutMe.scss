@@ -1,7 +1,6 @@
 @import 'core/variables';
 @import 'core/reset';
 .aboutme {
-  height: 100vh;
   padding-top: 8vh;
   margin: 0 5vw;
   &__title {
@@ -37,15 +36,16 @@
     }
   }
   &__btn {
-    min-width: 120px;
-    height: 30px;
+    min-width: 9em;
+    height: 1.9em;
+    margin-right: 5px;
     font-family: $mainfont;
     font-size: 1em;
     font-weight: bold;
     color: $linenwhite;
     background-color: $bcgblue;
     border: $htmlblue;
-    border-radius: 15px;
+    border-radius: 20px;
     @media (min-width: 768px) {
       margin-left: 25%;
     }

@@ -2,8 +2,8 @@
 @import 'core/variables';
 .header {
   background-color: $linenwhite;
-  height: 100vh;
   padding-top: 8vh;
+  padding-bottom: 8vh;
   @media (max-width: 768px) {
     display: flex;
     flex-direction: column;

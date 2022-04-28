@@ -1,4 +1,6 @@
+import Btn from './LinkBtn';
 import '../styles/AboutMe.scss';
+import '../styles/LinkBtn.scss';
 
 const AboutMe = (props) => {
   const aboutmeData = props.data.filter((dat) => dat.id === '2');
@@ -17,6 +19,7 @@ const AboutMe = (props) => {
           {`<CV/>`}
         </a>
       </button>
+      <Btn text={props.data[0].btn2} link={'projects'} />
       <article className="aboutme__article">{aboutmeData[0].aboutme2}</article>
     </section>
   );
