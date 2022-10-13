@@ -12,7 +12,7 @@ const AboutMe = (props) => {
       <article className="aboutme__article">{aboutmeData[0].aboutme1}</article>
       <button className="aboutme__btn">
         <a
-          href="https://drive.google.com/file/d/1iDaLCUMkIDttYNs9ktbGYUvaZobLqGMI/view?usp=sharing"
+          href="https://drive.google.com/file/d/1fMD3OBqMuo9jFDdZJAOkXxBlXODfgqGY/view?usp=sharing"
           target="_blank"
           rel="noreferrer"
         >
